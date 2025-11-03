@@ -554,10 +554,14 @@ footer input[type="email"] {
         width: 100%;
     }   
 
-    nav .navlinks a {
+    nav .nav-links a {
         display: flex;
         margin: 0.4vh 0;
+        justify-content: center;
         text-align: center;
+        width: 100%;      /* Make links fill the width */
+        flex: none;       /* Remove flex: 1 */
+        box-sizing: border-box;
     }
 
     .site-cards {
