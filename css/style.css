@@ -183,7 +183,7 @@ margin: 0;
     margin-left: 10vw;
 }
 
-.faq .fuckyou {
+.faq .faq-section {
     display: flex;
     flex-direction: row;
 }
@@ -570,7 +570,7 @@ footer input[type="email"] {
     }
 
 
-    .faq .fuckyou, .overview, .userguide, form #names, form #cityandbirth {
+    .faq .faq-section, .overview, .userguide, form #names, form #cityandbirth {
         flex-direction: column;
     }
 
